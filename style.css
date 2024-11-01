@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;/*to include the border height and width in the div itself*/
+}
+
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.nav_logo
+{
+    height:50px;
+    width:100px;
+}
+
+.logo
+{
+    background-image:url("amazon_logo.png");
+    background-size:cover;
+    height:50px;
+    width:100%;
+}
+
+.border{
+    border:2px solid transparent;/* the border have same color as the background-color*/
+}
+
+.border:hover{
+    border:2px solid white;
+}
+
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+
+#text1{
+    margin-left:15px;
+    font-size:0.85rem;
+}
+#text2{
+    margin-left:5px;
+}
+
+/**box3**/
+
+.nav-search{
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    height:40px;
+    width:620px;
+    display:flex;
+}
+
+.search-select{
+    border:none;
+    width:50px;
+    background-color:rgb(219, 219, 219);
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+.search-input{
+    border:none;
+    width:520px;
+}
+
+.search-icon{
+    width:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(255, 189, 67);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+
+}
+
+.text3{
+    font-size:0.75rem;
+}
+
+.text4{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+
+.nav-cart{
+    display:flex;
+    align-items:flex-end;
+    font-weight:700;
+}
+
+.nav-cart i {
+    font-size:38px;
+}
+
+
+/**panel**/
+.panel{
+    height:40px;
+    background-color:#222f3d;
+    display:flex;
+    align-items:center;
+
+}
+
+.panel-all{
+    width:60px;
+    display:flex;
+    color:white;   
+    justify-content:space-evenly;;
+    align-items:center;
+    font-size:0.9rem;
+    font-weight:700;
+    
+}
+.panel-all i{
+    font-size:1.5rem;
+}
+
+.panel-tabs{
+    display:flex;
+    color:white;
+    width:1270px;
+    align-items:center;
+    margin-left:30px;
+}
+
+.panel-tabs p {
+    margin-left:20px;
+}
+
+.panel-deals{
+    color:white;
+    font-weight:700;
+    font-size:1rem;
+}
+
+.hero-section{
+    background-image:url("hero_image.jpg");
+    background-size:cover;
+    height:600px;
+}
+
+.label{
+    background-color:white;
+    width:1450px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    left:50px;
+    top:500px;
+    border-radius:10px;
+}
+
+.label a {
+    text-decoration:none;
+}
+
