@@ -144,10 +144,13 @@
     font-size:1rem;
 }
 
+/*hero section*/
+
 .hero-section{
     background-image:url("hero_image.jpg");
     background-size:cover;
     height:600px;
+    position:relative;
 }
 
 .label{
@@ -167,3 +170,111 @@
     text-decoration:none;
 }
 
+/**shop section*/
+ 
+.shop-section{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    padding:10px;
+    background-color:#e2e7e6;
+}
+
+.box{
+    
+    height:400px;
+    width:23%;
+    border:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+    margin-top:1rem;
+}
+
+.image{
+    height:300px;
+    width:300px;
+    background-image:url("box1_image.jpg");
+    background-size:cover;
+    margin:10px;
+}
+
+.box-content a{
+    text-decoration:none;
+    color:rgb(0, 172, 252);
+}
+
+/** footer**/
+.foot-panel-1{
+    background-color:#364759;
+    height:50px;
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:13px;
+}
+
+.foot-panel-2{
+    height:400px;
+    background-color:#232f3f;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.foot-panel-2 p{
+    color:#dddddd;
+    font-size:0.9rem;
+    margin-bottom:9px;
+}
+
+.foot-panel-2 ul{
+    margin-top:20px;
+}
+
+.foot-panel-2 .topic{
+    font-weight:700;
+    font-size:1rem;
+}
+
+.foot-panel-3 {
+    background-color:#232f3f ; 
+    height:68px;
+    border-top:0.05px solid rgb(166, 166, 166);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.panel-3-logo{
+    width:100px;
+}
+
+.foot-panel-4{
+    height:76px;
+    background-color:#121921;
+    color:#dddddd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.panel-4-content-1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.75rem;
+    font-weight:600;
+    margin-bottom:5px;
+
+}
+
+.panel-4-content-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.75rem;
+    font-weight:600;
+}
